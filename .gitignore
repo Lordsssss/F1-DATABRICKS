@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+.env
+.venv/
+spark-env/
+
+# Spark
+spark-warehouse/
+metastore_db/
+*.crc
+
+# Data (never commit data)
+data/
+bronze/
+silver/
+gold/
+
+# Notebooks junk
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
